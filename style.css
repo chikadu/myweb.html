@@ -1,0 +1,133 @@
+*{
+	margin: 0; padding; 0; box-sizing: border-box;
+}
+
+/*background:url("images/cg.jpg")center no-repeat;*/
+ header{
+ width:100%;
+ height:100vh;
+ background-image: url('/images/ck.jpg');
+ background-repeat: no-repeat;
+ background-size:cover;
+ }
+ 
+ nav{
+	 widh:100%; height:15vh;
+	 background:black;
+	 color:white; display: flex; justify-content: space-between;
+	 align-items: center; text-transform: uppercase;
+ }
+ 
+ nav .logo{
+		width: 25%; text-align: center;
+		
+ }
+ 
+ nav .menu{
+	 
+		width: 40%; /*background:yellow;*/
+		display:flex; justify-content: space-around;
+		
+	 }
+	 
+nav .menu a{
+	width: 25%
+	text-decoration: none;
+	color:white;
+	font-weight:bold;
+}
+
+main{
+width: 100%;
+height: 85vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color:white;
+}
+
+/*section{
+	
+}*/
+section h3{
+	font-size: 35px; 
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+	color: 00FFFF;
+}
+section h1{
+		margin: 30px 0 20px 0;
+		font-size: 55px;
+		font-weight: 700;
+		text-shadow: 2px 1px 5px black;
+		text-transform: uppercase;
+		color:#999100;
+}
+
+section p{
+			font-size:25px;
+			word-spacing: 2px;
+			margin-bottom: 25px;
+			text-shadow: 1px 1px 1px black;
+}
+
+section a{
+		padding: 12px 30px;
+		border-radius: 4px;
+		outline: none;
+		text-transform: uppercase;
+		font-size: 17px;
+		font-weight: 500;
+		text-decoration: none;
+		letter-spacing: 1px;
+		color: white;
+		transition: all .2s ease;
+}
+
+section .button{
+	background: #fff;
+	color: #000;
+}
+.button:hover{
+	background: #00b894;
+		color: white;
+}
+section .button2{
+		background: #00b894;
+		color: white;
+}
+.button2:hover{
+	background: #fff;
+	color: #000;
+}	
+.change_content:after {
+	content: '';
+	animation: changetext 20s infinite linear;
+	color: #2d19e0;
+}
+
+@keyframes changetext {
+	0%{content: "Chitrakot Waterfalls";}
+	10%{content: "Tirathgarh Waterfalls";}
+	20%{content: "Ma Bamleshwari Temple Dongergarh";}
+	30%{content: "Mahamaya Temple Ratanpur ";}
+	40%{content: "Triveni Sangam Rajim";}
+	50%{content: "Jatmai Ghatrani Temple";}
+	60%{content: "Bhilai Steel Plant";}
+	70%{content: "Mainpath";}
+	80%{content: "Tatapani Ambikapur";}
+	90%{content: "Kailash And Kutumsar Caves";
+	/*22%{content: "Mainpath";}
+	24%{content: "Champaran";}
+	26%{content: "Ramgarh And Sita-Bengra";}
+	28%{content: "Jungle Safari";}
+	30%{content: "Maitri Baghi";}
+	32%{content: "Kanan Pendari";}
+	34%{content: "Khutaghat Dam";}
+	36%{content: "Goddess Danteshwari Temple";}
+	38%{content: "Kailash And Kutumsar Caves";}
+	}*/
+	
+	
