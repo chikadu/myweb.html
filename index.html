@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apprenticeship Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="Reg.css">
+</head>
+<body>
+	<img class="abc" src="apr.jpg">
+	<div class="background1">
+	<h1><img class="logo1" src="img_logo.png" width="26px;"> Registration from for Apprenticeship Training
+		<img class="logo2" src="img_Skilllndia.jpg" width="60px;"></h1>
+	<hr id="hr1">
+	<div id="b1">
+<h1 class="Head">Enter Details for Registration</h1>
+<!--<p id="A"><marquee>Last Date of form submition is <mark>30 Apr 2020</mark> and Last Registration submition Date is 25 Apr 2020.</marquee></p>-->
+<form class="trans">								<!--for adjust align used &nbsp.-->
+	<div class="F1">
+	<h2>Personal Details</h2>
+	<hr id="hr2">
+
+<label><b>Candidate Type : </b></lable>&nbsp &nbsp &nbsp &nbsp
+<select name="option" required autofocus>
+<option value=""selected>Choose here</option>
+<option value="Passed">ITI Passed</option>
+<option value="Pursing">ITI Pursing</option>
+<option value="Diploma ">Diploma</option>
+</select>
+<font color="red">If you are not sure about candidate type then leave default candidate type(Others).</font>
+<br></br>
+
+<b>Date of Birth<sup>*</sup> : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </b><input type="date" name="DOB" max="2000-10-10" min="1985-12-01" required>
+
+<br></br>
+
+<b>NCVT/SCVT Certification Type<sup>*</sup>  &nbsp &nbsp &nbsp &nbsp &nbsp :
+<input type="radio" name="type1" value="NCVT" required><lable>NCVT</lable>
+<input type="radio" name="type1" value="SCVT" required><label>SCVT</lable>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<b>Certified Candidate Type<sup>*</sup>  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp : 
+<input type="radio" name="type2" value="Regular" required><lable>Regular</lable>
+<input type="radio" name="type2" value="Private" required><label>Private</lable>
+
+<br></br>
+
+NCVT/SCVT Certificate No.<sup>*</sup>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : <input type="text" name="cert.No." required focus>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<label><b>ITI Trade<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: </b></lable>
+<select name="option" required>
+<option value=""selected>Choose here</option>
+<option value="COPA">COPA</option>
+<option value="Fitter">Fitter</option>
+<option value="Electrician">Electrician</option>
+<option value="Disel">Disel</option>
+<option value="Plumber">Plumber</option>
+</select>
+
+<br></br>
+
+Name<sup>*</sup>  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : <input type="text" name="full name" required>
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+<label><b>Gender<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : </b></lable>
+<select name="option" required>
+<option value=""selected>Choose here</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Others">Others</option>
+</select>
+
+<br><br />
+
+Father/Gurdian Name<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp: <input type="text" name="f'name"  required>
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+Mother Name<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: <input type="text" name="m'name"  required>
+
+<br><br />
+
+Aadhaar Card No. (UID No.) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: <input type="number" name="UID" required placeholder="UDI No.">
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+
+Spouse Name<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : <input type="text" name="s'name"  required>
+
+<br><br />
+
+<label><b>Category<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: </b></lable>
+<select name="option" required>
+<option value=""selected>Choose here</option>
+<option value="OBC">OBC</option>
+<option value="UR">UR</option>
+<option value="SC">SC</option>
+<option value="Others">Others</option>
+</select>
+
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<b>Is Person with Disability (PwD)<sup>*</sup> &nbsp : 
+<input type="radio" name="type3" value="NO" required><lable>No</lable>
+<input type="radio" name="type3" value="YES" required><label>Yes</lable>
+</div>
+
+</br>
+<div class="F2">
+<h2>Contact Details</h2>
+<hr id="hr1"></hr>
+
+Address<sup>*</sup>  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : <input type="text" name="full name" required size="90" placeholder="text me...">
+
+<br></br>
+
+<label><b>State<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : </b></lable>
+<select name="option" required>
+<option value=""selected>Choose here</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Haryana">Haryana</option>
+<option value="UP">UP</option>
+<option value="MP">MP</option>
+<option value="Punjab">Punjab</option>
+</select>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+PIN Code<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: <input type="number" name="pin"  required>
+
+<br><br />
+
+Phone Number<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: <input type="number" name="Ph.No."  required placeholder="eg.0987654321">
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+Email ID<sup>*</sup>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: <input type="email" name="Email"  required placeholder="eg.abc@xyz">
+</div>
+
+</br>
+<div class="F3">
+<h2>Documentation</h2>
+<hr id="hr1"></hr>
+
+Upload Your Photo<sup>*</sup> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : <input type="file" name="photo"  required>
+<br></br>
+Upload Your Signature<sup>*</sup>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : <input type="file" name="sign"  required>
+<br></br>
+Upload Proof of DOB<sup>*</sup>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : <input type="file" name="Marksheet"  required><br><label><font color="red">(eg.10th Marksheet)</font></label>
+<br></br>
+<p>DETAILS OF OTHER QUALIFICATION : </p>
+<TEXTAREA NAME="INSERT" size="100" rows="10" cols="40" placeholder="text me here...">
+</TEXTAREA>
+</div>
+<br/>
+<div class="F4">
+<!--<iframe src="https://www.youtube.com/embed/dD2EISBDjWM"></iframe>-->
+<center><button type="button" onclick="alert('This form created using basic HTML and without CSS.. Thanks for visit here..')">Click Here for more info</button>
+<input type="submit" name="submit">
+<button onclick="window.print()">Print This Page</button>
+<button onclick="window.close()">Exit From Chrome</button>
+</center>
+</div></div>
+</form></div>
+</body>
+</html>

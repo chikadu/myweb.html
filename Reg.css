@@ -1,0 +1,65 @@
+h1.Head{
+	background-color: orange;
+	 border: 1px solid orange;
+
+}
+img.logo1{
+	margin-top: 0.5%;
+}
+img.logo2{
+	position: absolute;
+	margin-left: 44%;
+	border-radius: 15%;
+}
+img.abc{
+		position:fixed;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	filter: blur(10px);
+	width:100%;
+}
+div.background1{
+	background:transparent;
+}
+#hr1{
+	height: 2px;
+	background-color: black;
+	border: none;
+}
+#hr2{
+		height: 2px;
+        background-color: orange;
+        border: none;
+}
+#b1{
+    margin: 20px;
+	/*background-color: #ccccff;*/
+	outline: 3px solid orange;
+	outline-offset: 15px;
+}
+	#A{
+		background-color: white;
+		color: red;
+	}
+div.F1{
+	margin: 20px;
+	outline: 2px solid orange;
+	outline-offset: 18px;
+
+}
+div.F2{
+	margin: 20px;
+	outline: 2px solid orange;
+	outline-offset: 18px;
+}
+div.F3{
+	margin: 20px;
+	outline: 2px solid orange;
+	outline-offset: 18px;
+}
+div.F4{
+	margin: 20px;
+	outline: 2px solid orange;
+	outline-offset: 10px;
+}
